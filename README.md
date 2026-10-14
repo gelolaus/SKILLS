@@ -1,12 +1,12 @@
 # SKILLS
 
-A collection of agent skills by [gelolaus](https://github.com/gelolaus). Each skill lives in its own folder under `skills/` and works with Claude Code and other agents that read `SKILL.md`.
+A collection of agent skills by [Angelo Laus](https://gelolaus.com). Each skill lives in its own folder under `skills/` and works with Claude Code and other agents that read `SKILL.md`.
 
 ## Skills
 
 | Skill | What it does |
 | ----- | ------------ |
-| [conventional-commits](skills/conventional-commits/SKILL.md) | Writes commit messages in gelolaus's Conventional Commits style: `type(scope): lowercase imperative subject` with a terse bullet body. Outputs the message only and never runs `git commit`. |
+| [conventional-commits](skills/conventional-commits/SKILL.md) | Writes commit messages in Angelo's Conventional Commits style: `type(scope): lowercase imperative subject` with a terse bullet body. Outputs the message only and never runs `git commit`. |
 
 ## Install
 
