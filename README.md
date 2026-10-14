@@ -10,10 +10,10 @@ A collection of agent skills by [Angelo Laus](https://gelolaus.com). Each skill 
 
 ## Install
 
-Install a skill with the skills CLI (replace `<github-username>` with the owner of this repository):
+Install a skill with the skills CLI:
 
 ```bash
-npx skills add <github-username>/SKILLS@conventional-commits
+npx skills add gelolaus/SKILLS@conventional-commits
 ```
 
 Add `-g` to install it for all your projects instead of only the current one.
@@ -23,7 +23,7 @@ Add `-g` to install it for all your projects instead of only the current one.
 Clone the repo and copy the skill folder you want into your skills directory (`~/.claude/skills/` for Claude Code, or `.claude/skills/` inside a single project):
 
 ```bash
-git clone https://github.com/<github-username>/SKILLS
+git clone https://github.com/gelolaus/SKILLS
 cp -r SKILLS/skills/conventional-commits ~/.claude/skills/
 ```
 
