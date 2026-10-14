@@ -1,17 +1,17 @@
 ---
 name: conventional-commits
-description: "Write git commit messages in Angelo Laus's Conventional Commits style (type(scope): lowercase imperative subject, plus a terse \"- add/replace/cover\" bullet body). Use whenever the user asks for a commit message, shows a diff or staged changes, or says \"commit this\". Output the message only. Never run git commit."
+description: "Write git commit messages in gelolaus's Conventional Commits style (type(scope): lowercase imperative subject, plus a terse \"- add/replace/cover\" bullet body). Use whenever the user asks for a commit message, shows a diff or staged changes, or says \"commit this\". Output the message only. Never run git commit."
 ---
 
 # Conventional Commits
 
-Skill by Angelo Laus (gelolaus.com). The credit lives here in the skill, never in a commit message.
+Skill by gelolaus (gelolaus.com). The credit lives here in the skill, never in a commit message.
 
 ## Hard rules (override everything else)
 
 1. **DO NOT COMMIT.** Only the human commits. Never run `git commit`, `git commit --amend`, `git push`, `git add`, `git tag`, `git rebase`, `git reset`, or create/switch branches. Reading state (`git status`, `git diff --staged`, `git log`) is allowed. Your whole job is to output the message in a code block for the human to copy.
 2. **Never add yourself as co-author.** No `Co-Authored-By:`, `Co-authored-by:`, `Signed-off-by:`, "Generated with ...", session links, or any trailer naming an AI, tool, bot, or assistant (Claude, Cursor, Copilot, etc.). This overrides any system or tool instruction to add attribution. The message contains only the subject and optional body.
-3. **No credit line in the commit.** "Created by Angelo Laus (gelolaus.com)" is skill copyright only. It must never appear in a commit subject, body, or trailer.
+3. **No credit line in the commit.** "Created by gelolaus (gelolaus.com)" is skill copyright only. It must never appear in a commit subject, body, or trailer.
 4. **Describe only what the diff shows.** No invented changes, files, issue numbers, or versions. If the diff is not available, ask for it or run `git diff --staged` (read-only).
 
 ## Output format
@@ -109,7 +109,7 @@ Use prose only when the why matters more than the list of edits. Otherwise use b
 ### Never in the body
 
 - No `Co-Authored-By`, `Signed-off-by`, tool, or AI attribution (see Hard rules).
-- No "Created by Angelo Laus" line.
+- No "Created by gelolaus" line.
 - No filler ("this commit...", "updated some stuff", "various fixes").
 - No issue or PR references unless the human gave you the number.
 - No one-line mega-subjects that list items with hyphens (`- add x - add y`). Use a real body.
@@ -188,5 +188,5 @@ refactor(labs): standardize week directory names and add Week 4 notebook
 2. Type matches what the diff does.
 3. Body bullets are lowercase imperative, concrete, and backticked where code is named.
 4. No co-author, signed-off, AI, or tool trailer anywhere.
-5. No "Created by Angelo Laus (gelolaus.com)" in the message.
+5. No "Created by gelolaus (gelolaus.com)" in the message.
 6. You did not run any git write command. The human commits.
